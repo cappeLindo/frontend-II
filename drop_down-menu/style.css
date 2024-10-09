@@ -1,0 +1,99 @@
+
+*{
+    margin:  0;
+    padding: 0;
+} 
+
+
+body { 
+    background-color: whitesmoke;
+}
+
+header { 
+    height: 100px;
+    width: 100%;
+    background-color: rgb(60, 60, 82);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+li a{ 
+    color: white;
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+a { 
+    font-size: 18px;
+}
+
+.container-menu{ 
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.container-sub-menu { 
+    position: absolute;
+    max-height: 0;
+    width: 100px;
+    overflow: hidden;
+    background-color: rgb(59, 89, 115);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 1s all;
+}
+
+.container-sub-menu a{ 
+    font-size: 16px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding-left: 10px;
+    transition: 0.5s all;
+    padding: 5px;
+    left: 15px;
+}
+
+.container-menu>li::after { 
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    width: 1px;
+    right: -30px;
+}
+
+
+
+.container-menu>li:hover{ 
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.container-menu>li:hover .container-sub-menu { 
+    max-height: 300px;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+}
+
+.container-menu > li { 
+    position: relative;
+}
+
+.container-sub-menu { 
+    position: absolute;
+}
+
+
+.container-sub-menu a:hover { 
+    color: rgb(9, 188, 215);
+}
