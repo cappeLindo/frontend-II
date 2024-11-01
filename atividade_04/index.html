@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ações do mouse</title>
+</head>
+<style>
+    #divImg img{ 
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    #divImg{ 
+        border-radius: 30px;
+        width: 269px;
+    }
+</style>
+<body>
+    <input type="button" value="click aqui" onclick="clique()">
+    <div>
+        <p id="paragrafo">Meu parágrafo</p>
+    </div>
+    <div id="divImg"><img src="picasso.jpg" alt=""></div>
+    <input type="text" id="txt" onkeypress="presstecla()">
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
