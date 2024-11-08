@@ -7,7 +7,9 @@ export default function Header() {
     return ( 
         <header>
             <nav>
-                <li><Link href='/sobre'></Link></li>
+                <ul>
+                    <li><Link href='/sobre'>a</Link></li>
+                </ul>
             </nav>
         </header>
     )
