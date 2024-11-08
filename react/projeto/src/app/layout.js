@@ -1,5 +1,6 @@
 //import localFont from "next/font/local";
 import "./globals.css";
+import Header from "@/components/header";
 
 export const metadata = {
   title: "Projeto",
@@ -10,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body>
         {children}
       </body>

@@ -23,6 +23,41 @@ a {
   text-decoration: none;
 }
 
+h1 { 
+  color: rgb(252, 252, 252);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+p { 
+  color: white;
+  text-align: center;
+}
+
+
+button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s all;
+  margin: auto;
+  display: block;
+  margin-top: 2rem;
+
+}
+
+a { 
+  display: block;
+  width: 100%;
+}
+
+button:hover { 
+  color: black;
+  background-color: aliceblue;
+  
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
