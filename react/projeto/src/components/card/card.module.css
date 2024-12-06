@@ -1,0 +1,17 @@
+.cards { 
+    width: 200px;
+    height: 200px;
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    border: solid 1px rgb(31, 31, 31);
+}
+
+.name {
+    color: rgb(46, 46, 46);
+    margin-bottom: 4rem;
+}

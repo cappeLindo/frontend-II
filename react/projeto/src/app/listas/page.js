@@ -51,8 +51,9 @@ export default function lista() {
             </ul>
             <h2>Lista de Objeto</h2>
             {carrosObj.map((carrosObj) => (
+
                 <div key={carrosObj.id}>
-                    <h3  > {carrosObj.id} - {carrosObj.carro}</h3>
+                    <h3> {carrosObj.id} - {carrosObj.carro}</h3>
                 </div>
 
             ))}
