@@ -1,4 +1,20 @@
-.head { 
+.head>nav>ul{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    list-style: none;
+    margin-bottom: 100px;
+    height: 70px;
+    background-color: rgb(43, 38, 83);
+
+}
+
+.head>nav>ul>li { 
+    transition: ease 0.5s;
+}
+
+.head>nav>ul>li:hover{
+    color: rgb(233, 236, 11);
+    transform: scale(1.2);
 }
