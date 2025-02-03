@@ -40,6 +40,10 @@
     position: relative; 
 }
 
+.navegacao li:hover {
+    background-color: #f0f0f0;
+}
+
 .drop_li {
     list-style: none;
     display: none;
@@ -57,6 +61,15 @@
 .drop_li li {
     padding: 10px;
     text-align: left;
+}
+
+.drop_li li:hover {
+    background-color: #e0e0e0;
+}
+
+.navegacao li:hover a,
+.drop_li li:hover a {
+    color: #333;
 }
 
 .navegacao li:hover .drop_li {
