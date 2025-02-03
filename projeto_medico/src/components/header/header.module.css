@@ -1,0 +1,85 @@
+.Header{
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.navegacao { 
+    display: flex;
+    margin-left: 200px;
+    width: 100%;
+}
+
+.navegacao a { 
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.navegacao > ul { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none; 
+}
+
+.sub_menu{
+    gap: 100px;
+}
+
+.navegacao li {
+    position: relative; 
+}
+
+.drop_li {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: rgb(245, 245, 245);
+    padding: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+    border-radius: 5px;
+    min-width: 150px;
+    z-index: 100;
+}
+
+.drop_li li {
+    padding: 10px;
+    text-align: left;
+}
+
+.navegacao li:hover .drop_li {
+    display: block;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: #007bff;
+    font-family: "JetBrains Mono", serif;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
