@@ -4,7 +4,7 @@
     font-size: 14px;
 }
 
-.footer {
+.direito {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -12,5 +12,12 @@
     background-color: black;
     color: white;
     text-align: center;
-    padding: 3px 0;
+    padding: 4px 0;
+}
+
+.logo1 { 
+    position: absolute;
+    bottom: 30px;
+    left: 6px;
+    margin-top: 20px;
 }

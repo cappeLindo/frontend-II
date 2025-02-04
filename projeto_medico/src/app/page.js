@@ -8,11 +8,12 @@ export default function Home() {
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
       <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet"/>
       <div className={styles.text}>
-        <p>Clínica Santa Mônica – Excelência em Saúde <br></br>
-        A Clínica Santa Mônica é referência em atendimento médico especializado, <br></br>
-        oferecendo diagnóstico preciso,<br></br> tratamentos eficazes e um cuidado humanizado. <br></br>
-         Com profissionais experientes e estrutura moderna,<br></br>
-         garantimos qualidade e confiança para a sua saúde. 💙❤️</p>
+        <h1>Bem-vindo(a) à Clínica Santa Mônica</h1>
+        <p>Clínica Santa Mônica – Excelência em Saúde<br></br>
+        A Clínica Santa Mônica é referência em <br></br>atendimento médico especializado,
+        oferecendo<br></br>diagnóstico preciso,tratamentos eficazes e <br></br>um cuidado humanizado. 
+         Com profissionais <br></br>experientes e estrutura moderna,
+         garantimos <br></br>qualidade e confiança para a sua saúde. 💙❤️</p>
       </div>
     </div>
   );

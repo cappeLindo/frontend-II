@@ -3,5 +3,11 @@
   align-items: center; 
   justify-content: center; 
   text-align: center; 
-  margin-top: 5rem;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
+.text h1{
+  color: #002D68;
+  margin-bottom: 40px;
 }
