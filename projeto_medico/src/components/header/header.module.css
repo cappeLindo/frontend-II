@@ -1,5 +1,6 @@
 .Header{
     height: 70px;
+    width: 100%;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
     display: flex;
 }
@@ -12,12 +13,16 @@
 
 .navegacao { 
     display: flex;
-    margin-left: 200px;
     width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
 }
 
-.navegacao a { 
-    text-decoration: none;
+
+.navegacao li a, 
+.drop_li li a {
+    text-decoration: none !important;
     color: black;
     font-size: 17px;
 }
@@ -33,7 +38,7 @@
 }
 
 .sub_menu{
-    gap: 100px;
+    gap: 3rem;
 }
 
 .navegacao li {
@@ -94,4 +99,28 @@
 
 .btn:hover {
     background-color: #0056b3;
+}
+
+@media(max-width: 768px) {
+    .logo{
+        display: none;
+    }
+    .navegacao li a, 
+    .drop_li li a {
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 8px 10px;
+        margin-right: 5px;
+    }
+    .sub_menu{
+        gap: 1rem;
+    }
+}
+
+@media(max-width: 468px) {
+    .btn{
+        display: none;
+    }
 }

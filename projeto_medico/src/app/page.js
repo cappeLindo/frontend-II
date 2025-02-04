@@ -14,6 +14,9 @@ export default function Home() {
         oferecendo<br></br>diagnóstico preciso,tratamentos eficazes e <br></br>um cuidado humanizado. 
          Com profissionais <br></br>experientes e estrutura moderna,
          garantimos <br></br>qualidade e confiança para a sua saúde. 💙❤️</p>
+        <div className={styles.buttonContainer}>
+          <button className={styles.btn}>Agendar Consulta</button>
+        </div>
       </div>
     </div>
   );

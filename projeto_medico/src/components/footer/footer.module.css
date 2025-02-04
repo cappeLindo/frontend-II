@@ -21,3 +21,12 @@
     left: 6px;
     margin-top: 20px;
 }
+
+@media(max-width: 448px) {
+    .direito p {
+        font-size: 12px;
+    }
+    .logo1 {
+        margin-bottom: 10px;
+    }
+}

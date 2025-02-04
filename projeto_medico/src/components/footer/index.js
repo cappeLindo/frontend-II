@@ -8,7 +8,7 @@ export default function Footer() {
                 <Image src='/images/logo1.png' alt='Logo' width={155} height={50}/>
             </div>
             <div className={style.direito}>
-                <p>© 2025-2025 Site com todos os direitos autorias</p>
+                <p>© 2025-2025 Todos os direitos do site reservado</p>
             </div>
         </footer>
     )
