@@ -4,13 +4,21 @@
   justify-content: center; 
   text-align: center; 
   flex-direction: column;
-  margin-top: 7rem;
+  margin-top: 6rem;
 }
 
 .text h1{
   color: #002D68;
   margin-bottom: 40px;
   text-shadow: 1px 2px 9px rgba(0, 0, 0, 0.521);
+}
+
+.logo_menor{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: relative;
+  display: none;
 }
 
 .text p{
@@ -45,5 +53,12 @@
   }
   .text p { 
     font-size: 15px;
+  }
+  .logo_menor{
+    display: block;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
   }
 }

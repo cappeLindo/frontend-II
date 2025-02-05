@@ -7,6 +7,7 @@ export default function Home() {
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
       <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet"/>
+      <div className={styles.logo_menor}><Image src='/images/menor.png' alt="logo menor" width={150} height={150}/></div>
       <div className={styles.text}>
         <h1>Bem-vindo(a) à Clínica Santa Mônica</h1>
         <p>Clínica Santa Mônica – Excelência em Saúde<br></br>
