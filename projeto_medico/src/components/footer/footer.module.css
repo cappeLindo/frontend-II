@@ -12,12 +12,12 @@
     background-color: black;
     color: white;
     text-align: center;
-    padding: 4px 0;
+    padding: 6px 0;
 }
 
 .logo1 { 
     position: absolute;
-    bottom: 27px;
+    bottom: 30px;
     left: 6px;
     margin-top: 20px;
 }
