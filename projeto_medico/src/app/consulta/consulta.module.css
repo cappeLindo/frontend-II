@@ -1,0 +1,160 @@
+
+.container {
+    height: auto;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10vh;
+}
+
+.heading {
+    font-size: 26px;
+    margin-top: 2.5vh;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    font-family: "JetBrains Mono", serif;
+    margin-bottom: 2vh;
+}
+
+.titleWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.searchWrapper {
+    display: flex;
+    justify-content: center;
+    font-family: "JetBrains Mono", serif;
+    margin: 15px 0;
+}
+
+.searchWrapper input {
+    font-family: "JetBrains Mono", serif;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 25px;
+    width: 70%;
+    max-width: 700px;
+}
+
+.searchWrapper input:focus {
+    outline: none;
+    border: none;
+}
+
+.searchWrapper input:focus {
+    border: 1.8px solid #8b8b8b; 
+}
+
+
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonWrapper button {
+    width: 120px;
+    background-color: #007bff;
+    font-family: "JetBrains Mono", serif;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttonWrapper button:hover {
+    background-color: #0056b3;
+
+}
+
+.buttonWrapper button:focus {
+    outline: none;
+    
+}
+
+.buttonWrapper button:active {
+    background-color: #004085;
+    
+}
+
+.tableWrapper {
+    margin-top: 20px;
+    overflow-x: auto;
+    padding: 30px;
+}
+
+.tableWrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgb(234, 234, 234);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tableWrapper th, .tableWrapper td {
+    padding: 10px; 
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tableWrapper th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tableWrapper tr:hover {
+    background-color: #ffffff;
+}
+
+.tableWrapper td {
+    color: #333;
+}
+
+/* Ajuste para tabelas de pacientes e médicos */
+.tableWrapper table.pacientes,
+.tableWrapper table.medicos {
+    width: auto;
+    margin: 0 auto;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 668px) {
+    .container {
+        width: 90%;
+        margin-top: 5vh;
+    }
+
+    .searchWrapper input {
+        width: 80%;
+    }
+
+    .buttonWrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttonWrapper button {
+        width: 60%;
+        padding: 10px;
+        margin: auto;
+    }
+    
+    .tableWrapper table {
+        width: 100%;
+    }
+}

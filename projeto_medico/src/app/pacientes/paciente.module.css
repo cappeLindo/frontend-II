@@ -1,4 +1,4 @@
-.background {
+.container {
     height: auto;
     width: 80%;
     max-width: 1200px;
@@ -46,10 +46,10 @@
 }
 
 .searchBox input:focus {
-    border: 1.8px solid #8b8b8b; /* Azul */
+    border: 1.6px solid #8b8b8b;
 }
 
-.tableWrapper {
+.tableContainer {
     margin-top: 20px;
     overflow-x: auto;
     padding: 30px;

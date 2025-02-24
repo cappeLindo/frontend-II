@@ -11,13 +11,13 @@ export default function Header() {
     <nav className={style.navegacao}>
         <ul className={style.sub_menu}>
             <li className={style.header_li}>
-                <Link href='#'>Home</Link>
+                <Link href='/'>Home</Link>
             </li>
             <li className={style.header_li}>
                 <Link href='#'>Médicos</Link>
                 <ul className={style.drop_li}>
                     <li className={style.header_li}>
-                        <Link href='#'>Listar</Link>
+                        <Link href='/medicos'>Listar</Link>
                     </li>
                     <li className={style.header_li}>
                         <Link href='#'>Adicionar</Link>
@@ -34,7 +34,7 @@ export default function Header() {
                 <Link href='#'>Pacientes</Link>
                 <ul className={style.drop_li}>
                     <li className={style.header_li}>
-                        <Link href='#'>Listar</Link>
+                        <Link href='/pacientes'>Listar</Link>
                     </li>
                     <li className={style.header_li}>
                         <Link href='#'>Adicionar</Link>
@@ -51,7 +51,7 @@ export default function Header() {
                 <Link href='#'>Agendamento</Link>
                 <ul className={style.drop_li}>
                     <li className={style.header_li}>
-                        <Link href='#'>Listar Consultas</Link>
+                        <Link href='/consulta'>Listar Consultas</Link>
                     </li>
                     <li className={style.header_li}>
                         <Link href='#'>Agendar Consultas</Link>
